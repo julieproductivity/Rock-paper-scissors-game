@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <h1>Let's play Rock, Paper, Scissors !</h1>
+    <div class="playerchoices">
+        <h2>Choose between :</h2>
+        <button id="rock">Rock</button>
+        <button id ="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    
+    </div>
+    <div class="choices">
+        <h2>Player choses : <span id="playerChoice"></span>
+        </h2>
+        <h2>Computer choses : <span  id="computerChoice"></span></h2>
+    
+    </div>
+    <div class="results">
+       <h2 class="displayR">RESULT: <span id="resultDisplay"></span> </h2>
+        <div class="roundresults"> 
+            <h2>Player: <span id="playerScore"> 0</span></h2> 
+            <h2>Computer : <span id="computerScore">0</span></h2>
+    
+        </div>
+    
+    </div>
+    <div class="roundwinner">
+        <h2>WINNER : <span id="winner"></span></h2>
+    </div>
+
+<script> 
+
+</script>
+
+    <script src="RPCFINAL.js" > 
+/** -- Pseudocode --
+ *
+ *  1. input from player : rock, paper, scissors 
+    -> input has to be case insensitive !
+    2. computer randowly choose between "rock", "paper", "scissors":
+     -> const computerChoices = ['rock','paper','scissors']       
+     
+     3. function computerSelections {
+        const computerSelections=computerChoices[Math.floor(math.random()*computerChoices.length)];
+ 
+    if input from player === computer choice: return "It's a tie!"
+
+    else if (player === rock):
+        if (computer === paper)"You lose! Paper beats Rock!"
+        else "You win! Rock beats Scissors"
+
+     else if (player === paper)
+        if (computer === rock) "You win! Paper beats Rock!"
+        else "You lose! Scissors beats Paper"
+
+     else if (player === scissors) 
+        if (computer === paper) "You win! Scissors beat Paper!"
+        else "You Lose! Rock beats Scissors!"
+
+        **/ 
+
+      
+
+        
+        
+
+
+
+
+    </script> 
+<footer>created by julie.productivity 
+    All right reserved - 2022
+</footer>
+</body>
+
+</html>
